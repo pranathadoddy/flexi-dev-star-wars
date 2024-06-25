@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Star Jedi";
+  src: url("/fonts/StarJedi.ttf") format("truetype");
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Star Jedi", sans-serif;
+  color: #feda4a;
+}
